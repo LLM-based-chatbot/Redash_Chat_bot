@@ -25,6 +25,14 @@ yarn add react-icons
 
 yarn add react-syntax-highlighter
 ### 4. Integrating Plugin Files
-Copy the entire client/app/components/chat folder to redash's client/app/components folder. Copy the entire redash/handlers/chat.py file to redash's redash/handlers folder. Now, integrate these two parts inside the Redash source code: Go to your Redash source code and locate the path client/app/components/ApplicationArea/ApplicationLayout/index.jsx. Copy and paste the following inside index.jsx:
+Copy the entire client/app/components/chat folder to redash's client/app/components folder. 
+
+Copy the entire redash/handlers/chat.py file to redash's redash/handlers folder. 
+
+Now, integrate these two parts inside the Redash source code: 
+
+Go to your Redash source code and locate the path client/app/components/ApplicationArea/ApplicationLayout/index.jsx. 
+
+Copy and paste the following inside index.jsx:
 
 
