@@ -40,8 +40,8 @@ import ChatBox from "@/components/chat/ChatBox";
 
 
 
-return (
-  <React.Fragment>
+   return (
+     <React.Fragment>
     {/* Existing code... */}
     <div>
       <DynamicComponent name="ApplicationDesktopChat">
