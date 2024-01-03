@@ -34,5 +34,20 @@ Now, integrate these two parts inside the Redash source code:
 Go to your Redash source code and locate the path client/app/components/ApplicationArea/ApplicationLayout/index.jsx. 
 
 Copy and paste the following inside index.jsx:
+import ChatBox from "@/components/chat/ChatBox";
+
+// Existing code...
+
+return (
+  <React.Fragment>
+    {/* Existing code... */}
+    <div>
+      <DynamicComponent name="ApplicationDesktopChat">
+        <ChatBox />
+      </DynamicComponent>
+    </div>
+    {/* Existing code... */}
+  </React.Fragment>
+);
 
 
