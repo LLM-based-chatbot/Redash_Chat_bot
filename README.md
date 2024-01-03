@@ -16,7 +16,7 @@ The Redash Chat Add-on provides a seamless chat integration within Redash, allow
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/alexa221/Redash_Chat_bot.git
+   git clone https://github.com/RYees/redash-chatgpt-plugin.git
    cd redash-chat-addon
 ### 3. Dependencies
 poetry add openai
