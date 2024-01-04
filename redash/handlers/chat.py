@@ -4,7 +4,7 @@ from redash.handlers.base import (
 )
 import os
 from openai import OpenAI
-VARIABLE_KEY = os.environ.get("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")
+VARIABLE_KEY = os.environ.get("sample-key")
 client = OpenAI(
   api_key=VARIABLE_KEY
 )
